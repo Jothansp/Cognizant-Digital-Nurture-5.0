@@ -1,0 +1,156 @@
+Week 1
+Logger initialized (constructor called).
+[LOG]: Application started.
+[LOG]: User logged in.
+Both references point to same instance? true
+
+-----------------------------------------------------
+
+Week 2
+---- Sorted array (for binary search) ----
+Product [id=106, name=Backpack, category=Bags]
+Product [id=103, name=Book, category=Stationery]
+Product [id=107, name=Camera, category=Electronics]
+Product [id=104, name=Headphones, category=Electronics]
+Product [id=101, name=Laptop, category=Electronics]
+Product [id=102, name=Shoes, category=Footwear]
+Product [id=105, name=Watch, category=Accessories]
+
+---- Searching for: Headphones ----
+Linear Search: found at index 3 after 4 comparison(s).
+Result: Product [id=104, name=Headphones, category=Electronics]
+Binary Search: found at index 3 after 1 comparison(s).
+Result: Product [id=104, name=Headphones, category=Electronics]
+
+---- Searching for: Television ----
+Linear Search: not found after 7 comparison(s).
+Binary Search: not found after 3 comparison(s).
+
+--------------------------------------------------------------
+
+Week 3
+---- After Bubble Sort (ascending by price) ----
+Order [id=104, customer=Meera, price=Rs.450.0]
+Order [id=102, customer=Priya, price=Rs.799.5]
+Order [id=101, customer=Rahul, price=Rs.2500.0]
+Order [id=106, customer=Kavita, price=Rs.3300.0]
+Order [id=105, customer=Arjun, price=Rs.9800.75]
+Order [id=103, customer=Suresh, price=Rs.15200.0]
+
+---- After Quick Sort (ascending by price) ----
+Order [id=104, customer=Meera, price=Rs.450.0]
+Order [id=102, customer=Priya, price=Rs.799.5]
+Order [id=101, customer=Rahul, price=Rs.2500.0]
+Order [id=106, customer=Kavita, price=Rs.3300.0]
+Order [id=105, customer=Arjun, price=Rs.9800.75]
+Order [id=103, customer=Suresh, price=Rs.15200.0]
+
+-------------------------------------------------------------------
+
+Week 4
+Added: Rahul
+Added: Priya
+Added: Suresh
+Added: Meera
+---- Employee Records (4) ----
+Employee [id=101, name=Rahul, position=Manager, salary=Rs.85000.0]
+Employee [id=102, name=Priya, position=Analyst, salary=Rs.55000.0]
+Employee [id=103, name=Suresh, position=Developer, salary=Rs.70000.0]
+Employee [id=104, name=Meera, position=Designer, salary=Rs.60000.0]
+
+---- Search ID 103 ----
+Found at index 2
+Employee [id=103, name=Suresh, position=Developer, salary=Rs.70000.0]
+
+---- Delete ID 102 ----
+Deleted employee ID 102
+---- Employee Records (3) ----
+Employee [id=101, name=Rahul, position=Manager, salary=Rs.85000.0]
+Employee [id=103, name=Suresh, position=Developer, salary=Rs.70000.0]
+Employee [id=104, name=Meera, position=Designer, salary=Rs.60000.0]
+
+---- Search deleted ID 102 ----
+Employee ID 102 not found.
+
+-----------------------------------------------------------------------------
+
+Week 5
+Added: Design Login Page
+Added: Setup Database
+Added: Write Unit Tests
+Added: Deploy to Staging
+---- Task List (4) ----
+Task [id=1, name=Design Login Page, status=Pending]
+Task [id=2, name=Setup Database, status=In Progress]
+Task [id=3, name=Write Unit Tests, status=Pending]
+Task [id=4, name=Deploy to Staging, status=Not Started]
+
+---- Search Task ID 3 ----
+Found at position 2
+Task [id=3, name=Write Unit Tests, status=Pending]
+
+---- Delete Task ID 2 ----
+Deleted task ID 2
+---- Task List (3) ----
+Task [id=1, name=Design Login Page, status=Pending]
+Task [id=3, name=Write Unit Tests, status=Pending]
+Task [id=4, name=Deploy to Staging, status=Not Started]
+
+---- Delete Head (ID 1) ----
+Deleted task ID 1
+---- Task List (2) ----
+Task [id=3, name=Write Unit Tests, status=Pending]
+Task [id=4, name=Deploy to Staging, status=Not Started]
+
+---- Search deleted ID 2 ----
+Task ID 2 not found.
+
+-----------------------------------------------------------------
+
+Week 6
+---- Sorted array (by title, for binary search) ----
+Book [id=104, title=Atomic Habits, author=James Clear]
+Book [id=107, title=Ikigai, author=Hector Garcia]
+Book [id=103, title=Rich Dad Poor Dad, author=Robert Kiyosaki]
+Book [id=106, title=Sapiens, author=Yuval Noah Harari]
+Book [id=101, title=The Alchemist, author=Paulo Coelho]
+Book [id=105, title=The Monk Who Sold His Ferrari, author=Robin Sharma]
+Book [id=102, title=Wings of Fire, author=A.P.J. Abdul Kalam]
+
+---- Searching for: Atomic Habits ----
+Linear Search: found at index 3 after 4 comparison(s).
+Result: Book [id=104, title=Atomic Habits, author=James Clear]
+Binary Search: found at index 0 after 3 comparison(s).
+Result: Book [id=104, title=Atomic Habits, author=James Clear]
+
+---- Searching for: The Great Gatsby ----
+Linear Search: not found after 7 comparison(s).
+Binary Search: not found after 3 comparison(s).
+
+-------------------------------------------------------------------
+
+Week 7
+Present Value : Rs.100000.0
+Growth Rate   : 8.0% p.a.
+Years         : 10
+
+Recursive         : Rs.215892.50
+Memoized          : Rs.215892.50
+Iterative         : Rs.215892.50
+Closed-form       : Rs.215892.50
+
+---- Variable Growth Rate Scenario ----
+Variable-rate FV (5 yrs): Rs.153732.90
+
+---- Year-wise Projection (Fixed 8%) ----
+Year  0 : Rs.100000.00
+Year  1 : Rs.108000.00
+Year  2 : Rs.116640.00
+Year  3 : Rs.125971.20
+Year  4 : Rs.136048.90
+Year  5 : Rs.146932.81
+Year  6 : Rs.158687.43
+Year  7 : Rs.171382.43
+Year  8 : Rs.185093.02
+Year  9 : Rs.199900.46
+Year 10 : Rs.215892.50
